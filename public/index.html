@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link id="favicon" rel="icon" href="#" type="image/x-icon" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon/favicon.ico" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -13,22 +13,6 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script type="text/javascript">
-      var faviconRoute = "favicon/";
-      var title = "정지원의포트폴리오";
-
-      var idx = 0;
-
-      setInterval(func, 500);
-
-      function func() {
-        console.log(faviconRoute + title[idx] + ".png");
-        document
-          .querySelector("#favicon")
-          .setAttribute("href", faviconRoute + title[idx++] + ".png");
-        idx %= title.length;
-      }
-    </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -38,7 +22,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>정지원의 포트폴리오입니다</title>
+    <title>Jiwon's Portfolio</title>
     <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
