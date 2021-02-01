@@ -8,17 +8,14 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+               <img className="profile-pic"  src="images/profile.jpg" alt="" />
 
             </div>
 
             <div className="nine columns main-col">
 
                <h2>About Me</h2>
-               <p>
-               {
-                 resumeData.aboutme
-               }
+               <p style={{fontFamily: 'IBMPlexSansKR-Medium'}} dangerouslySetInnerHTML={{__html: resumeData.aboutme}}>
                </p>
 
                <div className="row">
@@ -26,13 +23,9 @@ export default class About extends Component {
                   <div className="columns contact-details">
 
                   <h2>Contact Details</h2>
-                  <p className="address">
+                  <p style={{fontFamily: 'IBMPlexSansKR-Medium'}} className="address">
        						<span>{resumeData.name}</span>
                      <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
                     <span>{resumeData.website}</span>
        					   </p>
                   </div>
