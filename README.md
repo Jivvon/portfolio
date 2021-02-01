@@ -1,20 +1,9 @@
-React-Portfolio is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial
+## About me
 
-<a href="https://tracking.gitads.io/?repo=React-Portfolio"><img src="https://images.gitads.io/React-Portfolio" alt="GitAds"/></a>
+안녕하세요. 주니어 백엔드 개발자 정지원입니다.  
+같이 일하고 싶은, 든든한 개발자가 되는 것을 목표로 삼고 있으며 성장하는 느낌이 들 때 가장 행복합니다.
 
+### Contact
 
-[![HitCount](http://hits.dwyl.io/rbhatia46/React-Portfolio.svg)](http://hits.dwyl.io/rbhatia46/React-Portfolio)
-
-
-A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
-
-## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
-
-## How to use
-1. Clone/Download the repo.
-2. Run  ``` npm install ```.
-3. Change the values in ```src/resumeData.js``` to suit your use-case.
-4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-5. Make required changes in ```src/resumeData.js``` to suit your needs.
-
+Email : poiu8944@gmail.com
+Phone : 010-6850-0658
