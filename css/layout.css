@@ -151,7 +151,7 @@ header .scrolldown a:hover {
 }
 
 .fa-velog:hover {
-  content: url("images/portfolio/velog-hover.png");
+  content: url(%PUBLIC_URL%/images/portfolio/velog-hover.png);
 }
 
 /* primary navigation
@@ -842,7 +842,7 @@ ul#nav li.current a {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 
-  background: url(../images/overlay-bg.png) repeat;
+  background: url(%PUBLIC_URL%/images/overlay-bg.png) repeat;
 }
 
 .portfolio-item .item-wrap .link-icon {
