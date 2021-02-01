@@ -18,7 +18,7 @@ let resumeData = {
             "name": "velog",
             "url": "https://velog.io/@poiu8944",
             "className": "fa fa-velog",
-            "src": "/images/portfolio/velog.png"
+            "src": "images/portfolio/velog.png"
         }
       ],
     "aboutme": "안녕하세요. 주니어 백엔드 개발자 정지원입니다.\n" +
@@ -108,8 +108,8 @@ let resumeData = {
         {
             "name": "Cartoonizer using GAN",
             "description": "GAN을 활용하여 2D/3D 이미지를 생성하는 웹입니다.",
-            "imgurl": "/images/portfolio/Cartoonizer-using-GAN.png",
-            "preview": "/images/portfolio/modals/Cartoonizer-using-GAN.gif",
+            "imgurl": "images/portfolio/Cartoonizer-using-GAN.png",
+            "preview": "images/portfolio/modals/Cartoonizer-using-GAN.gif",
             "period": "2021/01 ~ 2021/02",
             "stack": '#React.js #Flask #Gunicorn #Nginx #RabbitMQ #Redis #PostgreSQL #Docker #Prometheus #Grafana #AWS #Git #Slack',
             "github": "https://github.com/SV-TeamD/Woowha",
@@ -118,8 +118,8 @@ let resumeData = {
         {
             "name": "충남대학교 컴퓨터공학과 공지사항 알리미",
             "description": "충남대학교 컴퓨터공학과 공지사항을 Slack으로 알려주는 봇입니다. 일정한 시간 간격으로 세 종류의 공지사항을 크롤링하며 AWS EC2로 배포하였습니다.",
-            "imgurl": "/images/portfolio/cnu-computer-noti-preview.png",
-            "preview": "/images/portfolio/modals/cnu-computer-noti-architecture.png",
+            "imgurl": "images/portfolio/cnu-computer-noti-preview.png",
+            "preview": "images/portfolio/modals/cnu-computer-noti-architecture.png",
             "period": "2020/03, 2020/07",
             "stack": '#Python #Docker #AWS #Git #Slackbot',
             "github": "https://github.com/Jivvon/cnu-computer-noti",
@@ -128,8 +128,8 @@ let resumeData = {
         {
             "name": "기상정보지원치계",
             "description": "군 복무시절 진행했던 프로젝트입니다. 비행작전 전후에 사령관 등이 예보관들이 입력한 정보, 기상데이터 등을 볼 수 있는 비행작전지원체계, 총 42개의 화면으로 구성되어있으며 기상데이터 입력 및 업로드, 센서장비값 및 상태 확인, HA, 차트, 풍배도 데이터 시각화 서비스를 제공합니다.",
-            "imgurl": "/images/portfolio/ROKAF.jpeg",
-            "preview": "/images/portfolio/modals/AMOS-windrose.jpg",
+            "imgurl": "images/portfolio/ROKAF.jpeg",
+            "preview": "images/portfolio/modals/AMOS-windrose.jpg",
             "period": "2016/04 ~ 2018/02",
             "stack": '#Vue.js #Node.js #Express #D3.js #MongoDB #Nginx',
             "link": "https://github.com/Jivvon/jivvon.github.io/blob/master/기상정보지원체계.md",
