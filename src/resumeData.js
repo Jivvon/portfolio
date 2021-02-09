@@ -1,11 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "정지원",
-    "role": "백엔드 개발자",
+    "role": "주니어 개발자",
     "linkedinId":"jiwonj15",
     "email":"poiu8944@gmail.com",
     "phoneNumber": "010-6850-0658",
-    "roleDescription": "저는 파이썬을 사용하고 (자바를 사용할) 백엔드 개발자입니다. 도커를 이용하여 인프라를 구성하는 것을 즐기며 새로운 기술에 대해 흥미를 가지고 시도해보는 것을 좋아합니다.",
+    "roleDescription": "도커를 이용하여 인프라를 구성하는 것을 즐기며 새로운 기술에 대해 흥미를 가지고 시도해보는 것을 좋아합니다. 최근 Kubernetes를 학습하고 있으며 IaC까지 경험해보기 위해 고군분투하며 성장하고 있습니다.",
     "socialLinks":[
         {
           "tag": "i",
@@ -21,7 +21,7 @@ let resumeData = {
             "src": "images/portfolio/velog.png"
         }
       ],
-    "aboutme": "안녕하세요. 주니어 백엔드 개발자 정지원입니다.\n" +
+    "aboutme": "안녕하세요. 데브옵스 개발자 정지원입니다.\n" +
         "<br>" +
         "저는 2016년, SW개발병으로 군 복무를 하며 개발을 시작하였습니다. 처음부터 업계 종사자들과 성장해왔기에 자연스레 <code>클린코드</code>, <code>코드리뷰</code>, <code>협업</code>을 중요시하게 되었습니다. " +
         "특히 최근에는<code>테스트</code> 의 중요성을 깨닫고 학습하기 시작하였으며 <code>중복 코드를 최소화</code>하는, <code>읽기 쉬운 코드</code>를 작성하는 노력을 하고 있습니다.\n" +

@@ -19,10 +19,10 @@ export default class Header extends Component {
             </ul>
          </nav>
 
-         <div className="row banner">
+         <div className="row banner text-stroke">
             <div className="banner-text">
                <h1 className="responsive-headline" style={{fontFamily: 'IBMPlexSansKR-Medium'}}>{resumeData.role} {resumeData.name}입니다.</h1>
-               <h3 style={{color:'#fff', fontFamily:'IBMPlexSansKR-Regular'}}>{resumeData.roleDescription}
+               <h3 style={{fontFamily:'IBMPlexSansKR-Regular'}}>{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
