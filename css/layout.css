@@ -435,14 +435,14 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.java {
+.go {
   background: #c9b29a;
   width: 35%;
-  -moz-animation: java 2s ease;
-  -webkit-animation: java 2s ease;
+  -moz-animation: go 2s ease;
+  -webkit-animation: go 2s ease;
 }
 
-@-moz-keyframes java {
+@-moz-keyframes go {
   0% {
     width: 0px;
   }
@@ -451,7 +451,7 @@ ul#nav li.current a {
   }
 }
 
-@-webkit-keyframes java {
+@-webkit-keyframes go {
   0% {
     width: 0px;
   }
@@ -460,28 +460,28 @@ ul#nav li.current a {
   }
 }
 
-.javascript {
+.grafana {
   background: #45343f;
-  width: 75%;
-  -moz-animation: javascript 2s ease;
-  -webkit-animation: javascript 2s ease;
+  width: 60%;
+  -moz-animation: grafana 2s ease;
+  -webkit-animation: grafana 2s ease;
 }
 
-@-moz-keyframes javascript {
+@-moz-keyframes grafana {
   0% {
     width: 0px;
   }
   100% {
-    width: 75%;
+    width: 60%;
   }
 }
 
-@-webkit-keyframes javascript {
+@-webkit-keyframes grafana {
   0% {
     width: 0px;
   }
   100% {
-    width: 75%;
+    width: 60%;
   }
 }
 
@@ -510,64 +510,14 @@ ul#nav li.current a {
   }
 }
 
-.flask {
+.prometheus {
   background: #566070;
-  width: 60%;
-  -moz-animation: spring 2s ease;
-  -webkit-animation: spring 2s ease;
-}
-
-@-moz-keyframes spring {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@-webkit-keyframes spring {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-.node_js {
-  background: #4c8bb2;
-  width: 60%;
-  -moz-animation: node_js 2s ease;
-  -webkit-animation: node_js 2s ease;
-}
-
-@-moz-keyframes node_js {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@-webkit-keyframes node_js {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-.react_js {
-  background: #95c0d7;
   width: 65%;
-  -moz-animation: react_js 2s ease;
-  -webkit-animation: react_js 2s ease;
+  -moz-animation: prometheus 2s ease;
+  -webkit-animation: prometheus 2s ease;
 }
 
-@-moz-keyframes react_js {
+@-moz-keyframes prometheus {
   0% {
     width: 0px;
   }
@@ -576,7 +526,57 @@ ul#nav li.current a {
   }
 }
 
-@-webkit-keyframes react_js {
+@-webkit-keyframes prometheus {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.loki {
+  background: #4c8bb2;
+  width: 40%;
+  -moz-animation: loki 2s ease;
+  -webkit-animation: loki 2s ease;
+}
+
+@-moz-keyframes loki {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+@-webkit-keyframes loki {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+.kubernetes {
+  background: #95c0d7;
+  width: 65%;
+  -moz-animation: kubernetes 2s ease;
+  -webkit-animation: kubernetes 2s ease;
+}
+
+@-moz-keyframes kubernetes {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@-webkit-keyframes kubernetes {
   0% {
     width: 0px;
   }
