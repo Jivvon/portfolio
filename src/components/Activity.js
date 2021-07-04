@@ -33,9 +33,7 @@ export default class Activity extends Component {
                                                         <a href={item.url} target="_blank" style={{fontFamily: 'IBMPlexSansKR-Regular'}}>github&nbsp;
                                                             <i className="fa fa-github"></i>
                                                         </a>
-                                                        : <a href={item.url} target="_blank" style={{fontFamily: 'IBMPlexSansKR-Regular'}}>youtube&nbsp;
-                                                            <i className="fa fa-youtube"></i>
-                                                        </a>)}
+                                                        : <a></a>)}
                                             </div>
                                         </div>
                                     )
