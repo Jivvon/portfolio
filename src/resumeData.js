@@ -32,6 +32,14 @@ let resumeData = {
             "YearOfPassing": "2022 (졸업 예정)",
         }
     ],
+    "work": [
+        {
+            "CompanyName":"에스아이에이",
+            "specialization":"DevOps Engineer",
+            "MonthOfLeaving":"Mar",
+            "YearOfLeaving":"2021"
+        }
+    ],
     "skillsDescription": "Docker, Kubernetes, Grafana, Prometheus, Promtail, Loki, Python, Go, Redis, RabbitMQ, Git, AWS",
     "skillsCategory": [
         {
