@@ -131,7 +131,7 @@ let resumeData = {
     ],
     "experience": [
         {
-            "name": "DevOps Intern in SI Analytics [2021.03~2021.06]",
+            "name": "DevOps Intern in SI Analytics [2021.03~2021.08]",
             "description": "쿠버네티스 환경에서 모니터링 시스템을 구축하는 프로젝트를 진행하였습니다. 메트릭과 로그를 수집하여 저장하고 시각화하는 데에 각종 Exporter와 Prometheus, Loki, Grafana를 사용하였습니다. " +
                 "모니터링 시스템을 구성하는 서비스가 많기 때문에 Helm chart로 관리하였고, GitOps 방식의 ArgoCD를 이용하여 배포하였습니다. " +
                 "또한, GPU 메트릭의 경우 오픈소스를 커스텀하여 원하는 정보를 개발자들에게 제공할 수 있었습니다.",
