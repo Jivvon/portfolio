@@ -20,7 +20,7 @@ let resumeData = {
     "aboutme": "안녕하세요. 데브옵스 엔지니어 정지원입니다.\n" +
         "<br>" +
         "저는 <code>생산성</code>, <code>효율성</code>, <code>자동화</code>를 중요시하며 자연스레 CI/CD 파이프라인, 아키텍처, 컨테이너 오케스트레이션 등에 관심을 가지게 되었습니다.\n" +
-        "최근에는 쿠버네티스를 학습하고 있으며 Grafana, Prometheus, Promtail, Loki를 이용하여 클러스터에 포함되어 있는 리소스의 메트릭과 어플리케이션 로그를 모니터링하는 시스템을 구축하고 있습니다.\n" +
+        "최근에는 쿠버네티스를 학습하고 있으며 Grafana, Prometheus, Promtail, Loki를 이용하여 클러스터에 포함되어 있는 리소스의 메트릭과 어플리케이션 로그를 모니터링하는 시스템을 구축하여 운영하고 있습니다.\n" +
         "<span>같이 일하고 싶은, 책임감 있는 개발자(엔지니어)</span>가 되는 것을 목표로 삼고 있으며 성장하는 느낌이 들 때 가장 행복합니다.",
     "address": "Korea",
     "website": "jwjeong127@gmail.com",
@@ -131,18 +131,18 @@ let resumeData = {
     ],
     "experience": [
         {
+            "name": "DevOps Intern in SI Analytics [2021.03~2021.06]",
+            "description": "쿠버네티스 환경에서 모니터링 시스템을 구축하는 프로젝트를 진행하였습니다. 메트릭과 로그를 수집하여 저장하고 시각화하는 데에 각종 Exporter와 Prometheus, Loki, Grafana를 사용하였습니다. " +
+                "모니터링 시스템을 구성하는 서비스가 많기 때문에 Helm chart로 관리하였고, GitOps 방식의 ArgoCD를 이용하여 배포하였습니다. " +
+                "또한, GPU 메트릭의 경우 오픈소스를 커스텀하여 원하는 정보를 개발자들에게 제공할 수 있었습니다.",
+            "type": "none"
+        },
+        {
             "name": "2021 Silicon Valley Online Internship [2021.01~2021.02]",
             "description": "2021 Silicon Valley Online Internship에서 'GAN을 활용하여 2D/3D 이미지를 생성하는 웹' 프로젝트에 팀 리더이자 백엔드 개발자로 참여하였습니다. 서버부터 개발 환경 구성, 모델 서빙등 프로젝트의 전반적인 부분을 담당하였으며 " +
                            "모델 서버를 여러 개의 컨테이너로 두고 메세지 큐(RabbitMQ)를 통해 작업을 분배하거나 사용자 경험을 고려하여 인메모리 방식의 데이터베이스(Redis)를 캐시로 사용하는 등 기술적으로 새로운 시도를 많이 한 프로젝트입니다.",
             "type": "github",
             "url": "https://github.com/SV-TeamD/Woowha",
-        },
-        {
-            "name": "DevOps Intern in SI Analytics [2021.03~2021.06]",
-            "description": "쿠버네티스 환경에서 모니터링 시스템을 구축하는 프로젝트를 진행하였습니다. 메트릭과 로그를 수집하여 저장하고 시각화하는 데에 각종 Exporter와 Prometheus, Promtail, Loki, Grafana를 사용하였습니다. " +
-                "모니터링 시스템을 구성하는 서비스가 많기 때문에 Helm chart로 관리하였고, 여러 클러스터에 각기 다른 구성으로 구축되어야 했기 때문에 클러스터별 환경을 설정할 수 있는 Helmfile을 이용하여 배포하였습니다. " +
-                "또한, GPU 메트릭의 경우 오픈소스를 커스텀하여 원하는 정보를 개발자들에게 제공할 수 있었습니다.",
-            "type": "none"
         }
     ]
 }
