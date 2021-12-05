@@ -34,13 +34,16 @@ let resumeData = {
     ],
     "work": [
         {
-            "CompanyName":"에스아이에이",
+            "CompanyName":"에스아이에이(SI Analytics)",
             "specialization":"DevOps Engineer",
-            "MonthOfLeaving":"Mar",
-            "YearOfLeaving":"2021"
+            "MonthOfJoining":"Mar",
+            "YearOfJoining":"2021",
+            "MonthOfLeaving":"재직 중",
+            "description":"인턴 | Mar 2021 ~ Aug 2021, 계약직 | Sep 2021 ~ 현재"
+            // "YearOfLeaving":"2021"
         }
     ],
-    "skillsDescription": "Docker, Kubernetes, Grafana, Prometheus, Promtail, Loki, Python, Go, Redis, RabbitMQ, Git, AWS",
+    "skillsDescription": "Docker, Kubernetes, Grafana, Prometheus, Loki, Python, AWS",
     "skillsCategory": [
         {
             "name": "language",
