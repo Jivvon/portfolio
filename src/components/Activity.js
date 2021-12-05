@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class Activity extends Component {
   render() {
     let resumeData = this.props.resumeData;
-    const items = ['experience', 'activity'];
+    const items = ['experience', 'activity', 'certificate'];
     return (
         <section id="activity">
             {items.map(i => {

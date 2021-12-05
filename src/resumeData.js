@@ -154,6 +154,16 @@ let resumeData = {
             "type": "link",
             "url": "https://github.com/lablup/backend.ai-webui/commits?author=Jivvon"
         }
+    ],
+    "certificate": [
+        {
+            "name": "OPIc (English) Intermediate High",
+            "description": "발행일: 2021년 11월 · 만료일: 2023년 11월 / from ACTFL"
+        },
+        {
+            "name": "SQL Developer",
+            "description": "발행일: 2020년 6월 · 만료일: 2022년 6월 / from 한국데이터진흥원"
+        }
     ]
 }
 
