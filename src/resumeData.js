@@ -144,6 +144,16 @@ let resumeData = {
             "type": "github",
             "url": "https://github.com/SV-TeamD/Woowha",
         }
+    ],
+    "activity": [
+        {
+            "name": "오픈소스 컨트리뷰톤 - Backend.AI [2020.08~2020.09]",
+            "description": "절대적인 기여량은 작고 귀여웠지만 코드를 이해하는 것부터 버전 관리, PR, 커밋 컨벤션 지키기 등 오픈소스에 기여하기 위한 전체적인 과정을 겪은 덕에 오픈소스 생태계를 이해하게 되었습니다. " +
+                "특히 Git을 훨씬 잘 활용하게 되어 현재까지도 가장 도움이 된 활동이었습니다." +
+                "대회 마지막 주에는 팀을 대표하여 발표를 하기도 하였습니다. ",
+            "type": "link",
+            "url": "https://github.com/lablup/backend.ai-webui/commits?author=Jivvon"
+        }
     ]
 }
 
