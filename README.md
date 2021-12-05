@@ -5,5 +5,5 @@
 
 ### Contact
 
-Email : poiu8944@gmail.com
+Email : jwjeong127@gmail.com
 Phone : 010-6850-0658

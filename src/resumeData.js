@@ -3,7 +3,7 @@ let resumeData = {
     "name": "정지원",
     "role": "데브옵스 엔지니어",
     "linkedinId":"jiwonj15",
-    "email":"poiu8944@gmail.com",
+    "email":"jwjeong127@gmail.com",
     "phoneNumber": "010-6850-0658",
     "roleDescription": "일의 효율을 끌어올리는 것을 즐깁니다. 개발자의 생산성을 증가시키거나, 리소스를 효율적으로 사용하는 일에 희열을 느낍니다.",
     "socialLinks": [
@@ -24,7 +24,7 @@ let resumeData = {
         "최근에는 쿠버네티스를 학습하고 있으며 Grafana, Prometheus, Promtail, Loki를 이용하여 클러스터에 포함되어 있는 리소스의 메트릭과 어플리케이션 로그를 모니터링하는 시스템을 구축하고 있습니다.\n" +
         "<span>같이 일하고 싶은, 책임감 있는 개발자(엔지니어)</span>가 되는 것을 목표로 삼고 있으며 성장하는 느낌이 들 때 가장 행복합니다.",
     "address": "Korea",
-    "website": "poiu8944@gmail.com",
+    "website": "jwjeong127@gmail.com",
     "education": [
         {
             "UniversityName": "충남대학교",
