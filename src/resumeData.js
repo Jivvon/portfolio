@@ -12,13 +12,6 @@ let resumeData = {
           "name":"github",
           "url":"https://github.com/Jivvon",
           "className":"fa fa-github"
-        },
-        {
-            "tag": "img",
-            "name": "velog",
-            "url": "https://velog.io/@poiu8944",
-            "className": "fa fa-velog",
-            "src": "images/portfolio/velog.png"
         }
       ],
     "aboutme": "안녕하세요. 데브옵스 엔지니어 정지원입니다.\n" +

@@ -139,22 +139,6 @@ header .scrolldown a:hover {
   color: #11abb0;
 }
 
-.fa-velog {
-  width: 15px;
-  height: 15px;
-}
-
-@media all and (min-width: 768px) {
-  .fa-velog {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-.fa-velog:hover {
-  content: url("/portfolio/images/portfolio/velog-hover.png");
-}
-
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul,
