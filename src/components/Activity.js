@@ -22,9 +22,21 @@ export default class Activity extends Component {
                                         <div className="row item">
                                             <div className="twelve columns">
                                                 <h3 style={{fontFamily: 'IBMPlexSansKR-Medium'}}>{item.name}</h3>
-                                                <p style={{fontFamily: 'IBMPlexSansKR-Light'}}>
-                                                    {item.description}
-                                                </p>
+                                                    {item.contents && item.contents.map((innerItem)=>{
+                                                        return (<div>
+                                                            <h5 style={{fontFamily: 'IBMPlexSansKR-Medium'}}>{innerItem.title}</h5>
+                                                            <ul style={{fontFamily: 'IBMPlexSansKR-Light'}}>
+                                                                {innerItem.descriptions && innerItem.descriptions.map((description)=>{
+                                                                    return <li>• {description}</li>
+                                                                })}
+                                                            </ul>
+                                                            {innerItem.description && 
+                                                                <p style={{fontFamily: 'IBMPlexSansKR-Light'}}>
+                                                                    {innerItem.description}
+                                                                </p>
+                                                            }
+                                                        </div>)
+                                                    })}
                                                 {item.type === 'link' ?
                                                     <a href={item.url} target="_blank" style={{fontFamily: 'IBMPlexSansKR-Regular'}}>link&nbsp;
                                                         <i className="fa fa-link"></i>

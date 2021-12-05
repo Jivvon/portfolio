@@ -126,21 +126,40 @@ let resumeData = {
             "stack": '#Vue.js #Node.js #Express #D3.js #MongoDB #Nginx',
             "link": "https://github.com/Jivvon/jivvon.github.io/blob/master/기상정보지원체계.md",
             "contribute": "Backend(Real-time wind data), Frontend(windrose, chart)"
-
         }
     ],
     "experience": [
         {
-            "name": "DevOps Intern in SI Analytics [2021.03~2021.08]",
-            "description": "쿠버네티스 환경에서 모니터링 시스템을 구축하는 프로젝트를 진행하였습니다. 메트릭과 로그를 수집하여 저장하고 시각화하는 데에 각종 Exporter와 Prometheus, Loki, Grafana를 사용하였습니다. " +
-                "모니터링 시스템을 구성하는 서비스가 많기 때문에 Helm chart로 관리하였고, GitOps 방식의 ArgoCD를 이용하여 배포하였습니다. " +
-                "또한, GPU 메트릭의 경우 오픈소스를 커스텀하여 원하는 정보를 개발자들에게 제공할 수 있었습니다.",
+            "name": "DevOps Engineer in SI Analytics [2021.03~]",
+            "contents": [{
+                "title": "Kubernetes 환경에서 모니터링 시스템 구축",
+                "descriptions": [
+                    "각종 Exporter와 Prometheus, Loki를 사용하여 메트릭과 로그를 수집 및 저장하고 Grafana를 통해 대시보 드로 시각화하는 모든 시스템 구축",
+                    "GPU 메트릭을 가져오는 nvidia/gpu-monitoring-tools 이미지를 GPU 모델명과 사용률이 나오도록 수정 후 이를 사용하는 dcgm-exporter를 통해 GPU 메트릭 수집",
+                    "리소스 사용량이 특정 기준보다 높을 경우 MS Teams로 알림을 전송하도록 설정",
+                    "ArgoCD를 활용하여 GitOps 방식으로 배포",
+                ]},
+                {"title": "Kubernetes 클러스터별 접근 제어 환경 구축 및 운영",
+                "descriptions": [
+                    "사용자별 User account를 발급하고 RBAC(ClusterRole, Role)를 활용하여 클러스터별 접근 제어가 가능한 Helm chart 작성",
+                    "ArgoCD를 활용하여 GitOps 방식으로 배포",
+                ]},
+                {"title": "Kubernetes 환경 백업 및 복원 시스템 구축",
+                "descriptions": [
+                    "Harbor | Database 덤프를 생성하는 스크립트 작성 후 cronjob으로 실행",
+                    "ETCD | Etcdctl을 이용하여 스냅샷 생성하는 스크립트 작성 후 cronjob으로 실행",
+                    "K8S Resources | velero를 이용하여 주기적으로 네임스페이스별 모든 리소스를 minio에 백업",
+                ]},
+            ],            
             "type": "none"
         },
         {
             "name": "2021 Silicon Valley Online Internship [2021.01~2021.02]",
-            "description": "2021 Silicon Valley Online Internship에서 'GAN을 활용하여 2D/3D 이미지를 생성하는 웹' 프로젝트에 팀 리더이자 백엔드 개발자로 참여하였습니다. 서버부터 개발 환경 구성, 모델 서빙등 프로젝트의 전반적인 부분을 담당하였으며 " +
-                           "모델 서버를 여러 개의 컨테이너로 두고 메세지 큐(RabbitMQ)를 통해 작업을 분배하거나 사용자 경험을 고려하여 인메모리 방식의 데이터베이스(Redis)를 캐시로 사용하는 등 기술적으로 새로운 시도를 많이 한 프로젝트입니다.",
+            "contents": [{
+                "title": "",
+                "description": "2021 Silicon Valley Online Internship에서 'GAN을 활용하여 2D/3D 이미지를 생성하는 웹' 프로젝트에 팀 리더이자 백엔드 개발자로 참여하였습니다. 서버부터 개발 환경 구성, 모델 서빙등 프로젝트의 전반적인 부분을 담당하였으며 " +
+                               "모델 서버를 여러 개의 컨테이너로 두고 메세지 큐(RabbitMQ)를 통해 작업을 분배하거나 사용자 경험을 고려하여 인메모리 방식의 데이터베이스(Redis)를 캐시로 사용하는 등 기술적으로 새로운 시도를 많이 한 프로젝트입니다."
+            }],
             "type": "github",
             "url": "https://github.com/SV-TeamD/Woowha",
         }
@@ -148,9 +167,12 @@ let resumeData = {
     "activity": [
         {
             "name": "오픈소스 컨트리뷰톤 - Backend.AI [2020.08~2020.09]",
-            "description": "절대적인 기여량은 작고 귀여웠지만 코드를 이해하는 것부터 버전 관리, PR, 커밋 컨벤션 지키기 등 오픈소스에 기여하기 위한 전체적인 과정을 겪은 덕에 오픈소스 생태계를 이해하게 되었습니다. " +
+            "contents": [{
+                "title": "",
+                "description": "절대적인 기여량은 작고 귀여웠지만 코드를 이해하는 것부터 버전 관리, PR, 커밋 컨벤션 지키기 등 오픈소스에 기여하기 위한 전체적인 과정을 겪은 덕에 오픈소스 생태계를 이해하게 되었습니다. " +
                 "특히 Git을 훨씬 잘 활용하게 되어 현재까지도 가장 도움이 된 활동이었습니다." +
-                "대회 마지막 주에는 팀을 대표하여 발표를 하기도 하였습니다. ",
+                "대회 마지막 주에는 팀을 대표하여 발표를 하기도 하였습니다. "
+            }],
             "type": "link",
             "url": "https://github.com/lablup/backend.ai-webui/commits?author=Jivvon"
         }
@@ -158,11 +180,17 @@ let resumeData = {
     "certificate": [
         {
             "name": "OPIc (English) Intermediate High",
-            "description": "발행일: 2021년 11월 · 만료일: 2023년 11월 / from ACTFL"
+            "contents": [{
+                "title": "",
+                "description": "발행일: 2021년 11월 · 만료일: 2023년 11월 / from ACTFL"
+            }]
         },
         {
             "name": "SQL Developer",
-            "description": "발행일: 2020년 6월 · 만료일: 2022년 6월 / from 한국데이터진흥원"
+            "contents": [{
+                "title": "",
+                "description": "발행일: 2020년 6월 · 만료일: 2022년 6월 / from 한국데이터진흥원"
+            }]
         }
     ]
 }
