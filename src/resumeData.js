@@ -8,10 +8,14 @@ let resumeData = {
     "roleDescription": "일의 효율을 끌어올리는 것을 즐깁니다. 개발자의 생산성을 증가시키거나, 리소스를 효율적으로 사용하는 일에 희열을 느낍니다.",
     "socialLinks": [
         {
-          "tag": "i",
-          "name":"github",
-          "url":"https://github.com/Jivvon",
-          "className":"fa fa-github"
+            "name":"linkedin",
+            "url":"https://www.linkedin.com/in/jiwonj15/",
+            "className":"fa fa-linkedin"
+        },
+        {
+            "name":"github",
+            "url":"https://github.com/Jivvon",
+            "className":"fa fa-github"
         }
       ],
     "aboutme": "안녕하세요. 데브옵스 엔지니어 정지원입니다.\n" +
